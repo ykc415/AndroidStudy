@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "170638536047",
+    "firebase_url": "https://fastcampus-chat.firebaseio.com",
+    "project_id": "fastcampus-chat",
+    "storage_bucket": "fastcampus-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170638536047:android:0d8acd276638a516",
+        "android_client_info": {
+          "package_name": "kr.co.fastcampus.android.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170638536047-ca363de50qin1a3la54aer2ggmphejhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgZDFV_mUfFf53_X4F5l0U3iXewrWqEbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
