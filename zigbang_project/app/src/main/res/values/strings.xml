@@ -1,6 +1,24 @@
 <resources>
-    <string name="app_name">zigbang_project</string>
+    <string name="app_name">Zigbang</string>
     <string name="title_activity_maps">Map</string>
 
-    <string name="findInMap">지도에서 찾기</string>
+    <string name="findInMap">지도에서찾기</string>
+    <string name="postARoom">방등록하기</string>
+    <string name="title_activity_floating_test">FloatingTestActivity</string>
+
+    <string name="intro_message">Search Place</string>
+    <string name="selected_place">Last Selected Place:</string>
+    <string name="place_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        <i>Place Id: %2$s</i>
+        <br/>
+        Address: %3$s
+        <br/>
+        Phone: %4$s
+        <br/>
+        Website: %5$s
+    ]]>
+    </string>
 </resources>

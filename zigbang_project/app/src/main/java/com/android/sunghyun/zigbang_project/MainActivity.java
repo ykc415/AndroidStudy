@@ -10,6 +10,9 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 
 /*
     1. 그래들에 design 라이브러리 추가
@@ -22,18 +25,25 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     MapFragment map;
     PostFragment etc;
 
-
     ViewPager pager;
+
+    FirebaseDatabase firebase;
+    DatabaseReference rootRef;
+    DatabaseReference roomsRef;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        firebase = FirebaseDatabase.getInstance();
+        rootRef = firebase.getReference();
+        roomsRef = firebase.getReference("rooms");
+
         home = new HomeFragment();
         map = new MapFragment();
         etc = new PostFragment();
-
 
         TabLayout tab = (TabLayout) findViewById(R.id.tab);
         tab.addTab(tab.newTab().setText("Home"));
@@ -54,6 +64,11 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
     @Override
     public void onFragmentInteraction(Uri uri) {
         Toast.makeText(this, "서브 프래그먼트에서 클릭됨", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public DatabaseReference getRoomReference() {
+        return roomsRef;
     }
 
 
