@@ -22,7 +22,7 @@ import android.support.v4.util.ArrayMap;
  * This is the endpoint for your data source. Typically, it would be a SQLite db and/or a server
  * API. In this example, we fake this by creating the data on the fly.
  */
-public final class NotesServiceApiEndpoint {
+public final class NotesServiceApiEndpoint { // 상속을 방지하는 final
 
     static {
         DATA = new ArrayMap(2);
