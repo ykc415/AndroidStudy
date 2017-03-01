@@ -5,4 +5,4 @@
 
 * * * 
 * AndroidTestingCodelab
-** https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..%2Findex#0 의 구글 가이드 예제 입니다.
+ * https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..%2Findex#0 의 구글 가이드 예제 입니다.
