@@ -6,4 +6,5 @@
 * * * 
 
 ### AndroidTestingCodelab
-* https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..%2Findex#0 의 구글 가이드 예제 입니다.
+* https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..%2Findex#0 
+* Tutorial을 공부하며 SampleCode를 완성해나가는 방식입니다. 
