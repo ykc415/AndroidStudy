@@ -13,7 +13,7 @@
 ### MaterialDesign
 * https://codelabs.developers.google.com/codelabs/material-design-style/index.html?index=..%2F..%2Findex#0
 * 머티리얼 디자인 원칙
-* 1) Print-like Design
+ * 1) Print-like Design
 2) Tangible Surfaces
 3) Bold Elements
 4) Meaningful Motion
