@@ -19,4 +19,13 @@
 4) Meaningful Motion
 5) Cards
 6) Responsive UI
- 
+
+
+* * * 
+## 앞으로 공부할 것 
+
+### Firebase Android Codelab
+* https://codelabs.developers.google.com/codelabs/firebase-android/index.html?index=..%2F..%2Findex#1
+
+### Using ConstraintDesign to design your views
+* https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0
