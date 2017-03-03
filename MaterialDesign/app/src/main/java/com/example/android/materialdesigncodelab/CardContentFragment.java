@@ -33,7 +33,6 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 /**
  * Provides UI for the view with Cards.
@@ -66,7 +65,7 @@ public class CardContentFragment extends Fragment {
                 public void onClick(View v) {
                     Context context = v.getContext();
                     Intent intent = new Intent(context, DetailActivity.class);
-                    intent.putExtra(DetailActivity.EXTRA_POSITION, getAdapterPosition());
+                    intent.putExtra(DetailActivity.EXTRA_POSITION, getAdapterPosition()); // 뷰홀더에서 포지션 바로 가져올수있구나
                     context.startActivity(intent);
                 }
             });
