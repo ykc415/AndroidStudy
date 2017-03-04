@@ -16,6 +16,9 @@
 5) Cards
 6) Responsive UI
 
+### Using ConstraintDesign to design your views
+* https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0
+* 참고 : https://developer.android.com/studio/write/layout-editor.html
 
 * * * 
 ## 앞으로 공부할 것 
@@ -23,8 +26,6 @@
 ### Firebase Android Codelab
 * https://codelabs.developers.google.com/codelabs/firebase-android/index.html?index=..%2F..%2Findex#1
 
-### Using ConstraintDesign to design your views
-* https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0
 
 ### AndroidTestingCodelab
 * https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..%2Findex#0 
