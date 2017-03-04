@@ -19,7 +19,7 @@
 ### Using ConstraintDesign to design your views
 * https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0
 * 참고 : https://developer.android.com/studio/write/layout-editor.html
-
+* 참고 : https://realm.io/kr/news/aw207-android-constraint-layout-auto-value-extensions/
 * * * 
 ## 앞으로 공부할 것 
 
