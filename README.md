@@ -20,6 +20,7 @@
 6) Responsive UI
 
 ### Using ConstraintDesign to design your views
+* - Avoid deep levels in layouts. A deep hierarchy of views makes your UI slow, not to mention making it harder to manage your layouts. Deep hierarchies can mostly be avoided by using the correct ViewGroup. Use Constraint Layout.
 * https://codelabs.developers.google.com/codelabs/constraint-layout/index.html?index=..%2F..%2Findex#0
 * 참고 : https://developer.android.com/studio/write/layout-editor.html
 * 참고 : https://realm.io/kr/news/aw207-android-constraint-layout-auto-value-extensions/
