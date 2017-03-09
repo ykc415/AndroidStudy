@@ -1,7 +1,7 @@
 # AndroidStudy
 
 ## 소개   
-* 안드로이드 공부한 것들을 모아놓은 저장소입니다.
+* 안드로이드 공부해 나가는 공간입니다!!
 
 ## 참고
 * Google Codelab - https://codelabs.developers.google.com/
