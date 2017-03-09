@@ -39,3 +39,5 @@
 
 ### Dependency Injection (Dagger2??)
 ### Reactive Programming with RxJava
+* http://reactivex.io/
+* http://www.vogella.com/tutorials/RxJava/article.html
