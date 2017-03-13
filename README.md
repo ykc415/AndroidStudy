@@ -37,6 +37,8 @@
 * 내용이 너무어려워서 일단 보류.... 
 
 ### Dependency Injection (Dagger2??)
+* https://www.slideshare.net/ssuser70b5b8/android-and-dagger2 (Android 와 Dagger2 - 정승욱)
+* https://docs.google.com/presentation/d/1fby5VeGU9CN8zjw4lAb2QPPsKRxx6mSwCe9q7ECNSJQ/pub?start=false&loop=false&delayms=3000&slide=id.p (
 ### Reactive Programming with RxJava
 * http://reactivex.io/
 * http://www.vogella.com/tutorials/RxJava/article.html
