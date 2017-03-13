@@ -16,13 +16,11 @@
 
 package com.example.android.testing.notes.notes;
 
-import com.google.common.collect.Lists;
-
 import com.example.android.testing.notes.data.Note;
 import com.example.android.testing.notes.data.NotesRepository;
 import com.example.android.testing.notes.data.NotesRepository.LoadNotesCallback;
+import com.google.common.collect.Lists;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
@@ -33,7 +31,6 @@ import org.mockito.MockitoAnnotations;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.fail;
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.verify;
 
@@ -74,28 +71,28 @@ public class NotesPresenterTest {
 
     @Test
     public void loadNotesFromRepositoryAndLoadIntoView() {
-        fail("Implement in step 6");
-//        // Given an initialized NotesPresenter with initialized notes
-//        // When loading of Notes is requested
-//        mNotesPresenter.loadNotes(true);
-//
-//        // Callback is captured and invoked with stubbed notes
-//        verify(mNotesRepository).getNotes(mLoadNotesCallbackCaptor.capture());
-//        mLoadNotesCallbackCaptor.getValue().onNotesLoaded(NOTES);
-//
-//        // Then progress indicator is hidden and notes are shown in UI
-//        verify(mNotesView).setProgressIndicator(false);
-//        verify(mNotesView).showNotes(NOTES);
+//        fail("Implement in step 6");
+        // Given an initialized NotesPresenter with initialized notes
+        // When loading of Notes is requested
+        mNotesPresenter.loadNotes(true);
+
+        // Callback is captured and invoked with stubbed notes
+        verify(mNotesRepository).getNotes(mLoadNotesCallbackCaptor.capture());
+        mLoadNotesCallbackCaptor.getValue().onNotesLoaded(NOTES);
+
+        // Then progress indicator is hidden and notes are shown in UI
+        verify(mNotesView).setProgressIndicator(false);
+        verify(mNotesView).showNotes(NOTES);
     }
 
     @Test
     public void clickOnFab_ShowsAddsNoteUi() {
-        fail("Implement in step 6");
-//        // When adding a new note
-//        mNotesPresenter.addNewNote();
-//
-//        // Then add note UI is shown
-//        verify(mNotesView).showAddNote();
+//        fail("Implement in step 6");
+        // When adding a new note
+        mNotesPresenter.addNewNote();
+
+        // Then add note UI is shown
+        verify(mNotesView).showAddNote();
     }
 
     @Test

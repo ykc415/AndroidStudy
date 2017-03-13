@@ -16,13 +16,10 @@
 
 package com.example.android.testing.notes.notes;
 
-import com.example.android.testing.notes.data.Note;
-import com.example.android.testing.notes.data.NotesRepository;
-import com.example.android.testing.notes.util.EspressoIdlingResource;
-
 import android.support.annotation.NonNull;
 
-import java.util.List;
+import com.example.android.testing.notes.data.Note;
+import com.example.android.testing.notes.data.NotesRepository;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
@@ -65,7 +62,7 @@ public class NotesPresenter implements NotesContract.UserActionsListener {
 
     @Override
     public void addNewNote() {
-//        mNotesView.showAddNote();
+        mNotesView.showAddNote();
     }
 
     @Override
