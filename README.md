@@ -44,3 +44,7 @@
 ### Reactive Programming with RxJava
 * http://reactivex.io/
 * http://www.vogella.com/tutorials/RxJava/article.html
+
+### Lottie
+* https://github.com/airbnb/lottie-android
+* http://www.lottiefiles.com/
