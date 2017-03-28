@@ -1,0 +1,17 @@
+ext {
+    buildToolsVersion = "25.0.2"
+
+    compileSdkVersion = 25
+    minSdkVersion = 14
+    targetSdkVersion = 25
+
+    realmVersion = "3.0.0"
+    supportLibVersion = "25.1.0"
+
+    // dependencies
+    appCompat = "com.android.support:appcompat-v7:${supportLibVersion}"
+    constraintLayout = "com.android.support.constraint:constraint-layout:1.0.2"
+    kotlin = "org.jetbrains.kotlin:kotlin-stdlib:1.1.1"
+    recyclerView = "com.android.support:recyclerview-v7:${supportLibVersion}"
+    supportDesign = "com.android.support:design:${supportLibVersion}"
+}

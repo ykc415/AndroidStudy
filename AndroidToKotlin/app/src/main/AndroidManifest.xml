@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidhuman.example.simplecontacts">
+
+    <application
+        android:name="com.androidhuman.example.simplecontacts.SimpleContactsApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.androidhuman.example.simplecontacts.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.androidhuman.example.simplecontacts.EditActivity"
+            android:label="@string/edit"
+            android:parentActivityName="com.androidhuman.example.simplecontacts.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.androidhuman.example.simplecontacts.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
