@@ -11,7 +11,7 @@
 ### MaterialDesign
 * https://codelabs.developers.google.com/codelabs/material-design-style/index.html?index=..%2F..%2Findex#0
 * 머티리얼 디자인 원칙
- * 1) Print-like Design
+1) Print-like Design
 2) Tangible Surfaces
 3) Bold Elements
 4) Meaningful Motion
@@ -24,6 +24,8 @@
 * 참고 : https://developer.android.com/studio/write/layout-editor.html
 * 참고 : https://realm.io/kr/news/aw207-android-constraint-layout-auto-value-extensions/
 
+### AndroidToKotlin
+* 커니님의 특강을 통하여 기존 안드로이드 프로젝트를 코틀린으로 바꾸는방법과 코틀린의 문법을 알아보았습니다. 
 
 * * * 
 ## 앞으로 공부할 것 
