@@ -26,6 +26,9 @@
 
 ### AndroidToKotlin
 * 커니님의 특강을 통하여 기존 안드로이드 프로젝트를 코틀린으로 바꾸는방법과 코틀린의 문법을 알아보았습니다. 
+* https://github.com/kunny/SimpleContacts
+
+
 
 * * * 
 ## 앞으로 공부할 것 
@@ -50,3 +53,5 @@
 ### Lottie
 * https://github.com/airbnb/lottie-android
 * http://www.lottiefiles.com/
+
+### Kotlin 
