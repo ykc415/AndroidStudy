@@ -37,7 +37,7 @@ import android.widget.TextView;
 /**
  * Main UI for the note detail screen.
  */
-public class NoteDetailFragment extends Fragment implements NoteDetailContract.View {
+public class    NoteDetailFragment extends Fragment implements NoteDetailContract.View {
 
     public static final String ARGUMENT_NOTE_ID = "NOTE_ID";
 
@@ -84,32 +84,32 @@ public class NoteDetailFragment extends Fragment implements NoteDetailContract.V
 
     @Override
     public void setProgressIndicator(boolean active) {
-//        if (active) {
-//            mDetailTitle.setText("");
-//            mDetailDescription.setText(getString(R.string.loading));
-//        }
+        if (active) {
+            mDetailTitle.setText("");
+            mDetailDescription.setText(getString(R.string.loading));
+        }
     }
 
     @Override
     public void hideDescription() {
-//        mDetailDescription.setVisibility(View.GONE);
+        mDetailDescription.setVisibility(View.GONE);
     }
 
     @Override
     public void hideTitle() {
-//        mDetailTitle.setVisibility(View.GONE);
+        mDetailTitle.setVisibility(View.GONE);
     }
 
     @Override
     public void showDescription(String description) {
-//        mDetailDescription.setVisibility(View.VISIBLE);
-//        mDetailDescription.setText(description);
+        mDetailDescription.setVisibility(View.VISIBLE);
+        mDetailDescription.setText(description);
     }
 
     @Override
     public void showTitle(String title) {
-//        mDetailTitle.setVisibility(View.VISIBLE);
-//        mDetailTitle.setText(title);
+        mDetailTitle.setVisibility(View.VISIBLE);
+        mDetailTitle.setText(title);
     }
 
     @Override
