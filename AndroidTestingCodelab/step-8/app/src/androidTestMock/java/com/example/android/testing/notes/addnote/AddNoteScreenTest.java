@@ -16,14 +16,6 @@
 
 package com.example.android.testing.notes.addnote;
 
-import com.example.android.testing.notes.R;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-
 import android.app.Activity;
 import android.app.Instrumentation.ActivityResult;
 import android.provider.MediaStore;
@@ -32,6 +24,14 @@ import android.support.test.espresso.intent.rule.IntentsTestRule;
 import android.support.test.filters.LargeTest;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
+
+import com.example.android.testing.notes.R;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import static android.support.test.InstrumentationRegistry.getTargetContext;
 import static android.support.test.espresso.Espresso.onView;
@@ -47,9 +47,8 @@ import static android.support.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static com.example.android.testing.notes.custom.matcher.ImageViewHasDrawableMatcher.hasDrawable;
-import static org.hamcrest.Matchers.allOf;
-import static org.hamcrest.Matchers.not;
-import static org.junit.Assert.fail;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.core.AllOf.allOf;
 
 /**
  * Tests for the add note screen.
@@ -84,24 +83,24 @@ public class AddNoteScreenTest {
 
     @Test
     public void addImageToNote_ShowsThumbnailInUi() {
-        fail("Implement in step 8");
-//        // Create an Activity Result which can be used to stub the camera Intent
-//        ActivityResult result = createImageCaptureActivityResultStub();
-//        // If there is an Intent with ACTION_IMAGE_CAPTURE, intercept the Intent and respond with
-//        // a stubbed result.
-//        intending(hasAction(MediaStore.ACTION_IMAGE_CAPTURE)).respondWith(result);
-//
-//        // Check thumbnail view is not displayed
-//        onView(withId(R.id.add_note_image_thumbnail)).check(matches(not(isDisplayed())));
-//
-//        selectTakeImageFromMenu();
-//
-//        // Check that the stubbed thumbnail is displayed in the UI
-//        onView(withId(R.id.add_note_image_thumbnail))
-//                .perform(scrollTo()) // Scroll to thumbnail
-//                .check(matches(allOf(
-//                        hasDrawable(), // Check ImageView has a drawable set with a custom matcher
-//                        isDisplayed())));
+
+        // Create an Activity Result which can be used to stub the camera Intent
+        ActivityResult result = createImageCaptureActivityResultStub();
+        // If there is an Intent with ACTION_IMAGE_CAPTURE, intercept the Intent and respond with
+        // a stubbed result.
+        intending(hasAction(MediaStore.ACTION_IMAGE_CAPTURE)).respondWith(result);
+
+        // Check thumbnail view is not displayed
+        onView(withId(R.id.add_note_image_thumbnail)).check(matches(not(isDisplayed())));
+
+        selectTakeImageFromMenu();
+
+        // Check that the stubbed thumbnail is displayed in the UI
+        onView(withId(R.id.add_note_image_thumbnail))
+                .perform(scrollTo()) // Scroll to thumbnail
+                .check(matches(allOf(
+                        hasDrawable(), // Check ImageView has a drawable set with a custom matcher
+                        isDisplayed())));
     }
 
     @Test
