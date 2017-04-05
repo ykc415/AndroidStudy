@@ -55,3 +55,7 @@
 * http://www.lottiefiles.com/
 
 ### Kotlin 
+
+### Firebase Cloud Functions
+* https://codelabs.developers.google.com/codelabs/firebase-cloud-functions/#0    코드랩 실습 
+* https://firebase.google.com/docs/functions/    구글 docs
